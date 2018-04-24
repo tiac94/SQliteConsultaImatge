@@ -1,0 +1,16 @@
+CREATE TABLE `USUARIS` (
+	`num`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`nom`	TEXT,
+	`punts`	INTEGER,
+	`imatge`	BLOB
+);
+INSERT INTO USUARIS (`nom`,`punts`,`imatge`) VALUES
+('María Mata', 2014, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Antonio Sanz', 1890, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Carlos', 967, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Berta', 945, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Héctor Campos', 879, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Ismael', 678, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Anna Tena', 543, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg'),
+('Patricia', 531, 'file:///home/santi/AndroidStudioProjects/Acces%20a%20dades/sqlite/sqlite-images/whale.jpg');
+
